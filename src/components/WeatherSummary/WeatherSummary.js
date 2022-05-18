@@ -10,7 +10,7 @@ const WeatherSummary = ({city, temp, icon, description}) => {
       <div className={styles.weatherInfo}>
         <h2>{city}</h2>
         <p>
-          <strong>Temp:</strong> {temp}
+          <strong>Temp:</strong> {temp}°C
         </p>
       </div>
     </section>
